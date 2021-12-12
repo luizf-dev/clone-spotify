@@ -1,0 +1,52 @@
+/* Layout
+------------------------------*/
+html,body, #home{
+    height: 100%;
+}
+
+body{
+    background: url(../imagens/capa.png),
+                url(../imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Barra de Navegação
+--------------------------------*/
+nav.navbar-transparent{
+    background: rgba(0,0,0,0.6);    
+}
+
+.navbar-light .nav-item .nav-link{
+    color: #fff;
+    font-weight: 900;
+}
+
+.navbar-light .nav-item .nav-link:hover{
+    color: green;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(0,0,0,0.5);
+    border-color: white;
+}
+
+#header .divisor{
+    width: 1px;
+    background: green;
+    margin: 12px 15px;
+}
+
+/*Home
+------------------------------*/
+#home .capa{
+    text-align: center;
+}
+
+#home h1{
+    font-weight: 900;
+    letter-spacing: -0.09em;
+    margin-bottom: 50px;
+    color: white;
+}
