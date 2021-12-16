@@ -2,6 +2,7 @@
 ------------------------------*/
 html,body, #home{
     height: 100%;
+    overflow-x: hidden;
 }
 
 body{
@@ -98,6 +99,34 @@ nav.navbar-transparent{
 }
 
 
+/*Recursos
+-----------------------------------*/
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#recursos h2{
+    color: #fff;
+    font-weight: 900;
+}
+
+#recursos h3{
+    color: #9bf0e1;
+}
+
+#recursos p{
+    color: #fff;
+}
+
+#recursos .row .rotate{
+    padding-left: 80px;
+    -ms-transform: rotate(30deg); /*IE 9*/
+    -webkit-transform: rotate(30deg); /*Chrome, Safari e Opera*/
+    transform: rotate(30deg);
+}
+
 
 
 
@@ -112,6 +141,11 @@ nav.navbar-transparent{
     h1{
         font-size: 2em;
     }
+
+    #recursos .row .rotate{
+       display: none;
+    }
+    
 }
 
 /*Small devices (landscape phones, 576px and up)*/
