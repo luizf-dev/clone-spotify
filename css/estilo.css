@@ -63,6 +63,10 @@ nav.navbar-transparent{
     color: #000;
 }
 
+#home .carousel-control-prev, .carousel-control-next{
+    width: 5%;
+}
+
 /*Serviços
 ---------------------------------*/
 
