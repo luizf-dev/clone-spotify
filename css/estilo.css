@@ -127,9 +127,31 @@ nav.navbar-transparent{
     transform: rotate(30deg);
 }
 
+/*Footer
+---------------------------------------------------------------*/
 
+footer{
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+}
 
+footer h4{
+    color: #fff;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
 
+footer .navbar-nav a{
+    color: #fff;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: green;
+    text-decoration: none;
+}
 
 
 /*Media queries 
